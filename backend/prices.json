@@ -1,0 +1,75 @@
+[
+  {
+    "timestamp": "2024-12-01T08:00:00",
+    "model": "iPhone 15 Pro Max",
+    "price": 1099.00,
+    "source": "apple_refurbished",
+    "url": "https://www.apple.com/shop/product/refurbished/iphone/iphone-15-pro-max",
+    "image_url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-iphone-15-pro-max-naturaltitanium-256gb?wid=200&hei=200&fmt=jpeg&qlt=90&.v=1694026287138"
+  },
+  {
+    "timestamp": "2024-12-02T08:00:00",
+    "model": "iPhone 15 Pro Max",
+    "price": 1099.00,
+    "source": "apple_refurbished",
+    "url": "https://www.apple.com/shop/product/refurbished/iphone/iphone-15-pro-max",
+    "image_url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-iphone-15-pro-max-naturaltitanium-256gb?wid=200&hei=200&fmt=jpeg&qlt=90&.v=1694026287138"
+  },
+  {
+    "timestamp": "2024-12-03T08:00:00",
+    "model": "iPhone 15 Pro Max",
+    "price": 1049.00,
+    "source": "apple_refurbished",
+    "url": "https://www.apple.com/shop/product/refurbished/iphone/iphone-15-pro-max",
+    "image_url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-iphone-15-pro-max-naturaltitanium-256gb?wid=200&hei=200&fmt=jpeg&qlt=90&.v=1694026287138"
+  },
+  {
+    "timestamp": "2024-12-01T08:00:00",
+    "model": "iPhone 16 Pro Max",
+    "price": 1199.00,
+    "source": "reebelo",
+    "url": "https://www.reebelo.com/search?q=iphone+16+pro+max+256gb",
+    "image_url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-max-naturaltitanium-select?wid=200&hei=200&fmt=jpeg&qlt=90&.v=1726616109456"
+  },
+  {
+    "timestamp": "2024-12-02T08:00:00",
+    "model": "iPhone 16 Pro Max",
+    "price": 1199.00,
+    "source": "reebelo",
+    "url": "https://www.reebelo.com/search?q=iphone+16+pro+max+256gb",
+    "image_url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-max-naturaltitanium-select?wid=200&hei=200&fmt=jpeg&qlt=90&.v=1726616109456"
+  },
+  {
+    "timestamp": "2024-12-03T08:00:00",
+    "model": "iPhone 16 Pro Max",
+    "price": 1149.00,
+    "source": "reebelo",
+    "url": "https://www.reebelo.com/search?q=iphone+16+pro+max+256gb",
+    "image_url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-max-naturaltitanium-select?wid=200&hei=200&fmt=jpeg&qlt=90&.v=1726616109456"
+  },
+  {
+    "timestamp": "2024-12-01T08:00:00",
+    "model": "iPhone 17 Pro Max",
+    "price": 1299.00,
+    "source": "reebelo",
+    "url": "https://www.reebelo.com/search?q=iphone+17+pro+max+256gb",
+    "image_url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-max-naturaltitanium-select?wid=200&hei=200&fmt=jpeg&qlt=90&.v=1726616109456"
+  },
+  {
+    "timestamp": "2024-12-02T08:00:00",
+    "model": "iPhone 17 Pro Max",
+    "price": 1299.00,
+    "source": "reebelo",
+    "url": "https://www.reebelo.com/search?q=iphone+17+pro+max+256gb",
+    "image_url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-max-naturaltitanium-select?wid=200&hei=200&fmt=jpeg&qlt=90&.v=1726616109456"
+  },
+  {
+    "timestamp": "2024-12-03T08:00:00",
+    "model": "iPhone 17 Pro Max",
+    "price": 1249.00,
+    "source": "reebelo",
+    "url": "https://www.reebelo.com/search?q=iphone+17+pro+max+256gb",
+    "image_url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-max-naturaltitanium-select?wid=200&hei=200&fmt=jpeg&qlt=90&.v=1726616109456"
+  }
+]
+
