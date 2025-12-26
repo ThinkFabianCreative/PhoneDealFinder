@@ -76,10 +76,17 @@
             const [error, setError] = useState(null);
 
             useEffect(() => {
-                // Fetch from GitHub raw file
-                fetch('https://raw.githubusercontent.com/ThinkFabianCreative/PhoneDealFinder/main/backend/prices.json')
+                // Fetch from GitHub raw file with CORS proxy if needed
+                const pricesUrl = 'https://raw.githubusercontent.com/ThinkFabianCreative/PhoneDealFinder/main/backend/prices.json';
+                
+                fetch(pricesUrl, {
+                    mode: 'cors',
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                })
                     .then(res => {
-                        if (!res.ok) throw new Error('Failed to fetch prices');
+                        if (!res.ok) throw new Error(`Failed to fetch prices: ${res.status}`);
                         return res.json();
                     })
                     .then(data => {
@@ -87,8 +94,23 @@
                         setLoading(false);
                     })
                     .catch(err => {
-                        setError(err.message);
-                        setLoading(false);
+                        console.error('Error fetching prices:', err);
+                        // Try alternative: use GitHub API
+                        fetch('https://api.github.com/repos/ThinkFabianCreative/PhoneDealFinder/contents/backend/prices.json')
+                            .then(res => res.json())
+                            .then(data => {
+                                if (data.content) {
+                                    const decoded = JSON.parse(atob(data.content.replace(/\s/g, '')));
+                                    setPrices(decoded);
+                                    setLoading(false);
+                                } else {
+                                    throw new Error('No content in API response');
+                                }
+                            })
+                            .catch(apiErr => {
+                                setError('Unable to load price data. Please check the repository.');
+                                setLoading(false);
+                            });
                     });
             }, []);
 
